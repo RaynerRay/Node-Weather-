@@ -41,6 +41,6 @@ app.get("/weather", (req, res) => {
 });
 
 // Start Server
-app.listen(port, () => {
+http.listen(port, () => {
   console.log(`server is up on port ${port}`);
 });
